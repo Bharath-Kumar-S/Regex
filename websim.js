@@ -1,5 +1,5 @@
 let a = `The fat cat ran down the street.
-It was searchinG for 54 mouse to eat.`;
+It was searchinG for 54 mices to eat.`;
 
 //searches if cat is present
 let matches = a.match(/(cat)/g);
@@ -73,8 +73,5 @@ mobile = `900-304-5843`;
 
 matches = mobile.match(/\d{3}[ -]?\d{3}[ -]?\d{4}/g)
 
-
 //Display
 console.log(matches)
-
-// `epo thala peasurathu bai kitta`
